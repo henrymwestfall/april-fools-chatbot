@@ -1,0 +1,41 @@
+#chatwindow {
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    overflow: hidden scroll;
+}
+
+#inputbox {
+    width: 250px;
+    height: 30px;
+    position: relative;
+    background-color: white;
+}
+
+input {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+p {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.userText {
+    text-align: right;
+    width: 175px;
+    color: white;
+    background-color: limegreen;
+    float: right;
+}
+
+.botText {
+    text-align: left;
+    width: 175px;
+    color: black;
+    background-color: #DFDFDF;
+    float: left;
+}
